@@ -2,7 +2,7 @@
 ## project作成
 OpenShiftのprojectを2つつくる。
 `userxx-development`がサンプルのアプリケーションが動作するprojectで、`app-devops`はJenkinsが動作するprojectである。
-アプリケーションが動作するために必要なリソースを確保しておくため、アプリケーションが動作するprojectと開発に必要なツールは分離しておくことをおすすめする。
+アプリケーションが動作するために必要なリソースを確保しておくため、アプリケーションが動作するprojectと開発に必要なツールは分離しておくことを必須とする。。
 
 ```
 $ oc new-project userxx-development
